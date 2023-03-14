@@ -17,6 +17,5 @@ body {
      text-deoration: none;
  }
  .expedu_icon:hover {
-        background-color: #495057;
-        color: #fff;
+        color: var(--bs-primary);
  }
