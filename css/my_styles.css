@@ -14,8 +14,31 @@ body {
 
  .expedu_icon{
      color:  #495057;
-     text-deoration: none;
+     text-decoration: none;
  }
  .expedu_icon:hover {
         color: var(--bs-primary);
+ }
+
+ :root{
+    --bs-primary: #82b4c4;
+    --bs-primary-rgb: 130, 180, 196;
+    --bs-secondary: #ffd306;
+    --bs-secondary-rgb: 255, 211, 6;
+ }
+
+ .expedu_icon:hover{
+    color:var(--bs-secondary)
+ }
+ 
+  a{
+   color:var(--bs-primary); 
+ }
+
+ a:hover{
+    color:var(--bs-secondary)
+ }
+
+ .social-icons .social-icon:hover{
+    background-color:var(--bs-secondary)
  }
