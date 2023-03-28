@@ -43,6 +43,10 @@ body {
     background-color:var(--bs-secondary)
  }
 
-ol > li:hover {
+ul > li:hover {
     background-color: #495057;
+}
+
+dd {
+  font-size: 70%;
 }
