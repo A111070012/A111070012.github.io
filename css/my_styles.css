@@ -46,7 +46,3 @@ body {
 ul > li:hover {
     background-color: #dcffff;
 }
-
-dd {
-  font-size: smaller;
-}
